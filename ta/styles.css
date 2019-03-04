@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    font-family: arial;
+    box-sizing: border-box;
+}
+body {
+    max-width: 1000px;
+}
+.header {
+    background-color: black;
+    height: 100px;
+}
+
+.header img {
+    padding: 23px 10px;
+}
+
+.line {
+    display: flex;
+    width: 70%;
+    margin: 40px 10px 0px;
+    flex-flow: row nowrap;
+    padding-bottom: 15px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.line__main-text {
+    width: 50%;
+    padding: 15px 20px;
+    line-height: 1.4;
+}
+
+.line__main-text p {
+    font-size: 12px;
+    padding-top: 10px; 
+}
+
+.line__button-section {
+    align-self: center;
+    text-align: center;
+}
+
+.line__button-section button {
+    width: 200px;
+    height: 40px;
+    color: #fff;
+    font-size: 12pt;
+    background-color: #00ade4;
+    border-radius: 10px;
+    border: none;
+    text-shadow: 2px 2px 2px #025975;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #10546b;
+    width: 1000px;
+    height: 120px;
+}
+
+.bucket {
+    float: right;
+    margin-top: 5px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 15px;
+    max-width: 250px;
+}
+
+.bucket__upper {
+    display: inline-flex;
+}
+
+.bucket__upper h2 {
+    align-self: center;
+    padding-left: 17px;
+}
+
+.bucket__main-content {
+    border-bottom: 1px solid lightgrey;
+    padding: 5px;
+    max-height: 100%;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.bucket__total {
+    padding: 10px;
+    float: right;
+    font-size: 12px;
+}
+
+.bucket__total span {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.bucket button {
+    width: 200px;
+    height: 40px;
+    color: #fff;
+    font-size: 12pt;
+    background-color: #29d807;
+    border-radius: 5px;
+    border: none;
+    text-shadow: 2px 2px 2px #1b6b21;
+    margin: 10px 10px 0px;
+    cursor: pointer;
+}
+
+.bucket__main-content__child {
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    line-height: 15px;
+}
+
+.delete-child {
+    font-weight: bolder;
+    color: gray;
+    width: 10%;
+    cursor: pointer;
+    align-self: center
+}
+
+.child-name {
+    width: 80%;
+}
+
+.child-price {
+    width: 50%
+}
+
+
